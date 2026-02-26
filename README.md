@@ -2,6 +2,15 @@
 
 A robust backend for managing student records, course enrollments, and academic grading, built with Spring Boot and Java 21+.
 
+## 📖 About the Project
+
+The **Student Management System (STMS)** is a professional-grade academic administration tool designed for high scalability and zero-dependency compatibility. It simplifies the complex relationships between students, courses, and academic performance.
+
+### 🌟 Key Philosophy
+- **Compatibility First**: Unlike standard Spring Boot apps, STMS uses **manual Boilerplate (Builders/DTOs)** instead of Lombok. This ensures the project runs flawlessly on any Java 21+ or Java 25 environment without IDE plugin dependencies.
+- **Relational Integrity**: The system uses JPA to enforce strict academic rules—preventing double enrollments and ensuring grades are only assigned to active student records.
+- **Architecture**: Built on the **Controller-Service-Repository** pattern, it provides a "Clean Code" foundation that is ready to be paired with a modern frontend (React/Next.js/Angular).
+
 ## 🚀 Features
 
 - **Student Management**: Full CRUD operations for student profiles.
