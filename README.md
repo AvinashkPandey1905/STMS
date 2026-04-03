@@ -38,13 +38,13 @@ The **Student Management System (STMS)** is a professional-grade academic admini
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/STMS.git
+   git clone https://github.com/AvinashkPandey1905/STMS.git
    cd STMS
    ```
 
 2. Run with H2 In-Memory Database (Test Mode):
    ```bash
-   mvn spring-boot:run -Dspring-boot.run.profiles=h2
+   mvn spring-boot: run -Dspring-boot.run.profiles=h2
    ```
 
 3. Access the H2 Console:
